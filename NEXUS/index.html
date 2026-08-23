@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NEXUS — Your Cyber Shield</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛡️</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800;900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div id="crosshair-cursor"></div>
+
+<div id="dashboard-root">
+  <nav id="navbar" class="navbar">
+    <div class="nav-logo" data-go="home">NEXUS</div>
+    <div class="nav-links">
+      <a href="#" class="nav-link" data-section="tools">Tools</a>
+      <a href="#" class="nav-link" data-section="quizzes">Quizzes</a>
+      <a href="#" class="nav-link" data-section="games">Games</a>
+      <a href="#" class="nav-link" data-go="threats">Threats</a>
+      <a href="#" class="nav-link" data-go="learn">Learn</a>
+      <a href="#" class="nav-link" data-page="about">About</a>
+      <a href="#" class="nav-link" data-page="contact">Reach Us</a>
+    </div>
+    <div class="nav-right">
+      <a href="#" class="nav-right-link" data-page="privacy">Privacy</a>
+    </div>
+  </nav>
+
+  <main id="snap-container" class="snap-container">
+
+    <!-- SECTION 1: LANDING -->
+    <section class="snap-section" id="section-landing">
+      <div class="landing-bg"></div>
+      <div class="landing-content">
+        <h1 class="nexus-hero" id="nexus-hero-text">NEXUS</h1>
+        <p class="tagline">Your Cyber Shield</p>
+        <div class="scroll-hint">
+          <span>scroll to explore</span>
+          <div class="scroll-line"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: ABOUT NEXUS -->
+    <section class="snap-section section-dark" id="section-about">
+      <div class="section-inner">
+        <div class="section-label">01 — ABOUT NEXUS</div>
+        <div class="section-heading">Where NEXUS Came From</div>
+        <div class="overview-grid">
+          <div class="glass-box box-left">
+            <h3>The Origin Story</h3>
+            <p style="color:var(--muted);font-size:14px;line-height:1.8;margin-top:6px">
+              NEXUS was built during the <b style="color:var(--cream)">Gurugram Police Cyber Security Summer Internship (GPCSSI) 2026</b> —
+              a month-long internship where every intern was given the full duration, start to finish, to design and build one project of their own choosing.
+            </p>
+            <p style="color:var(--muted);font-size:14px;line-height:1.8;margin-top:10px">
+              Cyber awareness was chosen as the focus — because most breaches don't start with sophisticated hacking, they start with a person who
+              didn't know what to look for. NEXUS is the result: a free, hands-on way for anyone to learn that in minutes, not months.
+            </p>
+          </div>
+          <div class="glass-box box-right">
+            <h3>What Is GPCSSI?</h3>
+            <p style="color:var(--muted);font-size:14px;line-height:1.8;margin-top:6px">
+              GPCSSI — the <b style="color:var(--cream)">Gurugram Police Cyber Security Summer Internship</b> — is a program run by Gurugram Police
+              that gives students hands-on exposure to real cybersecurity work and challenges them to build something useful during the internship period.
+            </p>
+            <p style="color:var(--muted);font-size:14px;line-height:1.8;margin-top:10px">
+              NEXUS is that project — a cyber awareness platform combining working security tools, interactive quizzes, and hands-on games, built
+              solo across the internship and shipped as a free web app.
+            </p>
+          </div>
+          <div class="glass-box box-bottom">
+            <h3 style="margin-bottom:14px">How To Use NEXUS</h3>
+            <div class="protect-item"><div class="p-dot"></div><span>Pick a category from the navbar — Tools, Quizzes, or Games</span></div>
+            <div class="protect-item"><div class="p-dot"></div><span>Tap any card to see an intro, then open the tool/quiz/game itself</span></div>
+            <div class="protect-item"><div class="p-dot"></div><span>Tools give instant results — quizzes and games track your score</span></div>
+            <div class="protect-item"><div class="p-dot"></div><span>Every item has a "How To Use" guide if you get stuck</span></div>
+            <div class="protect-item"><div class="p-dot"></div><span>Nothing you enter is stored — everything runs in your browser</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: OVERVIEW -->
+    <section class="snap-section section-dark" id="section-overview">
+      <div class="section-inner">
+        <div class="section-label">02 — THE LANDSCAPE</div>
+        <div class="section-heading">Why Cyber Awareness Matters</div>
+        <div class="overview-grid">
+          <div class="glass-box box-left">
+            <h3>The Threat Landscape</h3>
+            <div class="threat-stat"><span class="t-num">4.1B</span><span class="t-desc">records breached in 2024 alone</span></div>
+            <div class="threat-stat"><span class="t-num">3.4B</span><span class="t-desc">phishing emails sent every single day</span></div>
+            <div class="threat-stat"><span class="t-num">$8T</span><span class="t-desc">global cost of cybercrime annually</span></div>
+            <div class="threat-stat"><span class="t-num">95%</span><span class="t-desc">of breaches involve human error</span></div>
+            <div class="threat-stat"><span class="t-num">39s</span><span class="t-desc">average time between hacker attacks</span></div>
+            <div class="threat-stat"><span class="t-num">450K</span><span class="t-desc">new malware programs created daily</span></div>
+          </div>
+          <div class="glass-box box-right">
+            <h3>How NEXUS Protects You</h3>
+            <div class="protect-item"><div class="p-dot"></div><span>Detect phishing links before you click them</span></div>
+            <div class="protect-item"><div class="p-dot"></div><span>Analyze password strength and entropy instantly</span></div>
+            <div class="protect-item"><div class="p-dot"></div><span>Identify fake, disposable and spoofed emails</span></div>
+            <div class="protect-item"><div class="p-dot"></div><span>Scan files and images for hidden threats</span></div>
+            <div class="protect-item"><div class="p-dot"></div><span>Decode and analyze QR codes for phishing</span></div>
+            <div class="protect-item"><div class="p-dot"></div><span>Detect email header spoofing and authentication failures</span></div>
+            <div class="protect-item"><div class="p-dot"></div><span>Learn how much of your identity is discoverable online</span></div>
+            <div class="protect-item"><div class="p-dot"></div><span>Build real awareness through games and quizzes</span></div>
+            <div class="protect-item"><div class="p-dot"></div><span>Free, instant, and built for everyone</span></div>
+          </div>
+          <div class="glass-box box-bottom">
+            <div class="bottom-stats">
+              <div class="bs-item"><div class="bs-num">30+</div><div class="bs-label">Tools, Games & Quizzes</div></div>
+              <div class="bs-item"><div class="bs-num">100%</div><div class="bs-label">Free Forever</div></div>
+              <div class="bs-item"><div class="bs-num">0</div><div class="bs-label">Data Stored</div></div>
+              <div class="bs-item"><div class="bs-num">∞</div><div class="bs-label">Scans Allowed</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: STATS -->
+    <section class="snap-section section-dark" id="section-stats">
+      <div class="section-inner">
+        <div class="section-label">03 — REAL-TIME IMPACT</div>
+        <div class="section-heading">NEXUS By The Numbers</div>
+        <div class="stats-grid" id="stats-grid-1"></div>
+        <div class="stats-grid" id="stats-grid-2"></div>
+        <div class="stats-grid" id="stats-grid-3"></div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: EXPLORE -->
+    <section class="snap-section section-dark" id="section-explore">
+      <div class="section-inner">
+        <div class="section-label">04 — EXPLORE</div>
+        <div class="section-heading">Everything You Need To Stay Safe</div>
+        <p class="section-sub">Three categories, thirty ways to protect yourself online.</p>
+        <div class="three-box-grid">
+          <div class="explore-box teal-glow exp-in-ready" data-go="tools">
+            <div class="eb-icon">🛠</div>
+            <div class="eb-title">Tools &amp; Applications</div>
+            <div class="eb-count">10 tools</div>
+            <div class="eb-desc">Scan URLs, check passwords, verify emails, analyze images, decode QR codes, and more.</div>
+            <div class="eb-cta">EXPLORE TOOLS →</div>
+          </div>
+          <div class="explore-box green-glow exp-in-ready" data-go="quizzes">
+            <div class="eb-icon">📋</div>
+            <div class="eb-title">Quizzes &amp; Checklists</div>
+            <div class="eb-count">10 quizzes</div>
+            <div class="eb-desc">Audit your Wi-Fi, test phishing awareness, rate your digital hygiene, and more.</div>
+            <div class="eb-cta">EXPLORE QUIZZES →</div>
+          </div>
+          <div class="explore-box red-glow exp-in-ready" data-go="games">
+            <div class="eb-icon">🎮</div>
+            <div class="eb-title">Games Lab</div>
+            <div class="eb-count">10 games</div>
+            <div class="eb-desc">Crack ciphers, spot phishing URLs, escape cyber puzzles, decode Morse and binary.</div>
+            <div class="eb-cta">EXPLORE GAMES →</div>
+          </div>
+        </div>
+        <div class="explore-features">
+          <div class="ef-item"><span class="ef-icon">⚡</span><span>Instant results, no signup</span></div>
+          <div class="ef-item"><span class="ef-icon">🔒</span><span>Nothing stored or tracked</span></div>
+          <div class="ef-item"><span class="ef-icon">📱</span><span>Works on any device</span></div>
+          <div class="ef-item"><span class="ef-icon">🆓</span><span>100% free, forever</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: LEARN -->
+    <section class="snap-section section-dark" id="section-learn">
+      <div class="section-inner">
+        <div class="section-label">05 — STAY SHARP</div>
+        <div class="section-heading">Today's Cyber Briefing</div>
+        <div class="edu-grid" id="edu-grid"></div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: VISUAL -->
+    <section class="snap-section section-dark" id="section-visual">
+      <div class="section-inner">
+        <div class="section-label">06 — GLOBAL THREATS</div>
+        <div class="section-heading">The World Under Attack</div>
+        <div class="visual-grid">
+          <div class="visual-card vis-in-ready" id="threat-map-card">
+            <h4>Live Attack Origins</h4>
+            <div id="threat-map"></div>
+          </div>
+          <div class="visual-card vis-in-ready" id="timeline-card">
+            <h4>Notable Cyber Attacks</h4>
+            <div id="attack-timeline"></div>
+          </div>
+          <div class="visual-card vis-in-ready" id="chart-card" style="grid-column:1/-1">
+            <h4>Attack Types Distribution</h4>
+            <div id="attack-chart"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 7: FOOTER -->
+    <footer class="snap-section footer-section" id="section-footer">
+      <div class="footer-inner">
+        <div class="footer-logo">NEXUS</div>
+        <div class="footer-tagline">Your Cyber Shield — Built for everyone, free forever.</div>
+        <div class="footer-links">
+          <a href="#" data-page="about">About</a>
+          <a href="#" data-page="contact">Contact</a>
+          <a href="#" data-go="threats">Threats</a>
+          <a href="#" data-go="learn">Learn</a>
+          <a href="#" data-page="privacy">Privacy</a>
+        </div>
+        <div class="footer-copy">© 2026 NEXUS — Cyber Security Awareness</div>
+      </div>
+    </footer>
+
+  </main>
+</div>
+
+<!-- APP ROOT -->
+<div id="app-root" class="app-root hidden">
+  <nav id="app-navbar" class="navbar app-navbar">
+    <div class="nav-logo nav-logo-static" data-go="home">NEXUS</div>
+    <div class="nav-links">
+      <a href="#" class="nav-link" data-section="tools">Tools</a>
+      <a href="#" class="nav-link" data-section="quizzes">Quizzes</a>
+      <a href="#" class="nav-link" data-section="games">Games</a>
+      <a href="#" class="nav-link" data-go="threats">Threats</a>
+      <a href="#" class="nav-link" data-go="learn">Learn</a>
+      <a href="#" class="nav-link" data-page="about">About</a>
+      <a href="#" class="nav-link" data-page="contact">Reach Us</a>
+    </div>
+    <div class="nav-right">
+      <a href="#" class="nav-right-link" data-page="privacy">Privacy</a>
+    </div>
+  </nav>
+  <div id="app-content" class="app-content"></div>
+  <footer class="footer-section app-footer">
+    <div class="footer-inner">
+      <div class="footer-logo">NEXUS</div>
+      <div class="footer-tagline">Your Cyber Shield — Built for everyone, free forever.</div>
+      <div class="footer-links">
+        <a href="#" data-page="about">About</a>
+        <a href="#" data-page="contact">Contact</a>
+        <a href="#" data-go="threats">Threats</a>
+        <a href="#" data-go="learn">Learn</a>
+        <a href="#" data-page="privacy">Privacy</a>
+      </div>
+      <div class="footer-copy">© 2026 NEXUS — Cyber Security Awareness</div>
+    </div>
+  </footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/exifr/dist/lite.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jsqr@1.4.0/dist/jsQR.js"></script>
+<script src="js/tools-logic.js"></script>
+<script src="js/data.js"></script>
+<script src="js/render.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
